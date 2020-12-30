@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+p{
+    display: inline-block;
+    font-size:25px;
+}
+h1{
+    display: inline-block;
+    color: rgb(105, 104, 104);
+    margin-left: 5px;
+}
+#nav {
+    margin: 0, 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(29, 52, 255);
+}
+
+#nav>p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px; 
+}
+
+#nav>p>a {
+    color: black
+}
+
+input {
+    font-size: 20px;
+    display: inline-block;
+}
+
+button {
+    background-color: lightblue;
+    border: 1px solid;
+    margin-left: 30px;
+    padding: 15px 30px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+#upload {
+    text-align: left;
+    display: inline-block;
+}
+
+#text {
+    text-align: left;
+    font-size: 15px;
+    color: lightblue;
+    height: 100%;
+    width: 10%;
+    display: inline-block;
+    color: blue;
+    background-color:#e6e6e6;
+    text-align: center;
+}
+
+a {
+    color: red;
+}
+
+img{
+    width: 40px;
+}
+
+#info{
+    float: right;
+    width: 90%;
+    height: 100%;
+}
+
+#infos{
+    float: right;
+    width: 90%;
+
+}
+
+th{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    width: 10%;
+}
+table{
+    margin-top: 10px;
+    width: 100%;
+}
+td {
+    font-size: 20px;
+    height: 70px;
+    width: 10%;
+    color: rgb(54, 54, 54);
+    text-align: center;
+
+}
+tr {
+    height: 70px;
+}
+
+

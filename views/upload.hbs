@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <p><a href="/upload">Upload</a></p>
+        <p><a href="/filemanager">Filemanager</a></p>
+        <p><a href="/info">Info</a></p>
+    </div>
+    <div id="text">
+        <h1>Multiupload</h1>
+    </div>
+    <div id="upload">
+        <form action="/handleUpload" method="POST" enctype="multipart/form-data">
+            <input type="file" required accept="*/*" name="UploadFiles" multiple>
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+</body>
+
+</html>
